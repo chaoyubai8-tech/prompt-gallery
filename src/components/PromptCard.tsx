@@ -44,7 +44,7 @@ export default function PromptCard({
 
       {/* Title */}
       <a
-        href={`/prompt/${prompt.id}`}
+        href={`/prompt-gallery/prompt/${prompt.id}`}
         className="no-underline group"
       >
         <h3 className="font-bold text-base leading-tight group-hover:text-blue-700 transition-colors" style={{ color: "var(--color-brand)" }}>

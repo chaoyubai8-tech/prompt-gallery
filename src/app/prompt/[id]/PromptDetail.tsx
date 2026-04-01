@@ -26,7 +26,7 @@ export default function PromptDetail({ prompt, catInfo, related }: Props) {
     <div className="max-w-4xl mx-auto px-4 sm:px-6 py-10">
       {/* Breadcrumb */}
       <nav className="flex items-center gap-2 text-sm mb-8" style={{ color: "var(--color-text-muted)" }}>
-        <a href="/" className="hover:underline font-medium" style={{ color: "var(--color-text-secondary)" }}>
+        <a href="/prompt-gallery/" className="hover:underline font-medium" style={{ color: "var(--color-text-secondary)" }}>
           Gallery
         </a>
         <span className="text-gray-300">/</span>

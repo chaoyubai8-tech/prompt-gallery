@@ -60,7 +60,7 @@ export default function RootLayout({
         {/* Header */}
         <header className="bg-white sticky top-0 z-50 border-b border-gray-100">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 py-3 flex items-center justify-between">
-            <a href="/" className="flex items-center gap-2.5 no-underline">
+            <a href="/prompt-gallery/" className="flex items-center gap-2.5 no-underline">
               <div
                 className="w-9 h-9 rounded-lg flex items-center justify-center font-bold text-base text-white"
                 style={{ backgroundColor: "var(--color-brand)" }}
